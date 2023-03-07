@@ -22,7 +22,9 @@ def checkPrime():
         if isPrime(n):
             s = s + str(n) + "\n"
 
-    storeResults(s)      
-        
+    print("The prime numbers between 1 to 250 :")
+    print(s)      
+    
+    storeResults(s)
 
 checkPrime()                
